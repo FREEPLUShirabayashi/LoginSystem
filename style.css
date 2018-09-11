@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: -webkit-inline-box;
+}
+
+#button01{
+  /*  背景をグラデーションにする */
+  background: linear-gradient(-150deg, #FF3399,#663399);
+  color: white;
+  /* ボタンの角を丸くする */
+  border-radius: 20px;
+  width: 100px; height: 30px;
+}
+form{
+  /*  formは暗くしない*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  width: 300px; height: 250px;
+  /* フォームのか角を丸くする */
+  border-radius: 10px;
+  /* 左右対象の場所（中央）にハイチする */
+  margin: auto;
+
+
+}
+#name{
+  font-size: 100%;
+}
+#password{
+font-size:100%;
+}
+i{
+  margin-right: 10px;
+}
+h1{
+  position: relative;
+  font-size: 100%;
+  text-align: center;
+  top: 190px;
+  /* 左右真ん中に配置する */
+  text-align: center;
+}
+.test{
+  margin: auto;
+  background-image: url(images/bg-01.jpg);
+  width:100vw; height:100vh;
+  background-size: cover;
+  position: :relative;
+  /* margin-top: 150px; */
+}
+.test::before{
+  /* 透過した黒を重ねる */
+background-color: rgba(0,0,0,0.5);
+/* どの範囲に重ねるかを指定 */
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+content: ' ';
+
+}
+
+input {
+  border:none;
+}
+.name{
+
+  border-bottom: 1px solid #ccc;
+  padding:40px 30px 20px 30px;
+}
+.passwordbutton{
+  border-bottom: 1px solid #ccc;
+  padding:40px 30px 20px 30px;
+}
+.login{
+  padding: 20px 50px 30px 80px;s
+}

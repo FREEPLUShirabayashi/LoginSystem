@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang=jp>
+  <head>
+    <meta charset="utf-8">
+    <title>ACCOUNT LOGIN</title>
+    <!--この文句を入れることでcssファイルを分けることが出来る -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  </head>
+<body>
+<!-- <div class="test"> -->
+<div class="wrap test">
+    <h1 style="color:white">ACCOUNT LOGIN</h1>
+    <form  action="/my-handling-form-page" method="post">
+      <div class="name">
+        <i class="fas fa-address-book"></i>
+        <!-- <label for="name">User name</label> -->
+        <input type="text" id="name" name="user_name" placeholder="User name">
+      </div>
+      <div class="passwordbutton">
+        <i class="fas fa-unlock-alt"></i>
+      <!-- <label for="password">Password</label> -->
+      <!-- &nbsp;は空白を空けるもの -->
+      <input type="text" id="password" name="user_name"placeholder="Password">
+     </div>
+
+      <div class="login">
+      　<input id="button01" type="button" value="LOGIN"/>
+    </div>
+    </form>
+</div>
+<!-- </div> -->
+</body>
+</html>
